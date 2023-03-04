@@ -1,0 +1,110 @@
+body{
+    padding: 20px;
+}
+nav {
+    display: flex;
+    background-color: rgba(147, 32, 26, 0.974);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    font-family: "Arial";
+}
+
+
+nav .options {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+nav .options a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #c0b8b8;
+}
+
+nav .options a:hover{
+    color: white;
+}
+
+.fresh_news{
+    display: flex;
+    margin-top: 30px;
+    min-height: 300px;
+    background-color: rgb(157, 219, 224);
+    padding: 20px;
+}
+
+.fresh_news .fresh_news_left img{
+    width: 500px;
+    height: 300px;
+}
+
+.fresh_news .fresh_news_right {
+    margin-left: 30px;
+    width: 800px;
+    height: 300px;
+}
+.fresh_news .fresh_news_right .fresh_news_right_text {
+    font-family: 'Arial';
+    padding: 10px;
+    color: rgb(79, 76, 76);
+}
+
+.fresh_news .fresh_news_right .fresh_news_right_text .fresh_news_right_text_title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(49, 44, 44);
+}
+
+.latest_news {
+    min-height: 450px;
+}
+.latest_news .latest_news_title {
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Arial';
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(31, 28, 28);
+}
+
+.latest_news .latest_news_sports{
+    display: flex;
+    justify-content: space-between;
+}
+.latest_news .latest_news_sports .lates_news_sports_cards{
+    width: 250px;
+    border: 1px solid gray;
+}
+.latest_news .latest_news_sports .lates_news_sports_cards img{
+    width: 250px;
+    height: 200px;
+}
+.latest_news .latest_news_sports .lates_news_sports_cards .lates_news_sports_cards_body{
+    padding: 10px;
+}
+
+.latest_news .latest_news_sports .lates_news_sports_cards .lates_news_sports_cards_body .lates_news_sports_cards_title{
+    font-weight: bold;
+} 
+.latest_news .latest_news_sports .lates_news_sports_cards .lates_news_sports_cards_body .lates_news_sports_cards_text{
+    margin-top: 10px;
+    color: rgb(79, 76, 76);
+}
+.latest_news .latest_news_sports .lates_news_sports_cards .lates_news_sports_cards_body button{
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 13px;
+    font-family: Arial;
+    background-color:rgba(147, 32, 26, 0.974);
+    color: white;
+}
